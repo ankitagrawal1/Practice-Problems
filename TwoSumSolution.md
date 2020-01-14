@@ -42,6 +42,8 @@ class Solution {
 }
 ```
 
+According to HackerRank, the solution had a runtime of 19 ms and was faster than 30.30% of Java online submissions for the problem at the time.
+
 ### Possible Improvements
 
 While the solution works, it is not as efficient as it could be. In the worst case scenario, I would have to check every possible array index pairing until either the target sum is achieved or the empty array is returned (in the case that no two indices have values summing to the target array value).
