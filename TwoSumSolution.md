@@ -22,7 +22,7 @@ Upon a first look at the problem, I recognized that while the example included v
 
 If the array values can be in any order, then I thought that the most straightforward way to get two values that would meet the target sum would be use an inner/outer loop structure. The outer loop would track one index, and the inner loop would track the other. With this method, I could go through each possible combination until the correct indices are reached. Those values could immediately be returned in another array, and I would not need to loop through the rest of the array.
 
-The following solution successfully passed HackerRank's submission system:
+The following solution successfully passed LeetCodes's submission system:
 
 ```
 class Solution {
@@ -42,7 +42,7 @@ class Solution {
 }
 ```
 
-According to HackerRank, the solution had a runtime of 19 ms and was faster than 30.30% of Java online submissions for the problem at the time.
+According to LeetCode, the solution had a runtime of 19 ms and was faster than 30.30% of Java online submissions for the problem at the time.
 
 ### Possible Improvements
 
