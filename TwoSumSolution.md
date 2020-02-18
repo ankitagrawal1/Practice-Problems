@@ -1,6 +1,6 @@
 # Two Sum Solution
 
-This problem is available on HackerRank, and can be found through the following link: https://leetcode.com/problems/two-sum/
+This problem is available on LeetCode, and can be found through the following link: https://leetcode.com/problems/two-sum/
 
 ## Problem Description
 
