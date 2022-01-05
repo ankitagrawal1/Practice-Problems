@@ -59,25 +59,25 @@ Below is my working solution for the problem in HackerRank:
 
 ```
 public static String timeConversion(String s) {
-// Write your code here
-String timeOfDay = s.substring(8);
-int hour = Integer.parseInt(s.substring(0,2));
-String updatedHour = hour + "";
-if(timeOfDay.equals("AM")){
-    if(hour != 12){
-        return s.substring(0,8);
+    // Write your code here
+    String timeOfDay = s.substring(8);
+    int hour = Integer.parseInt(s.substring(0,2));
+    String updatedHour = hour + "";
+    if(timeOfDay.equals("AM")){
+        if(hour != 12){
+            return s.substring(0,8);
+        }
+        hour-=12;
+        updatedHour = hour + "0";
     }
-    hour-=12;
-    updatedHour = hour + "0";
-}
-else{
-    if(hour == 12){
-        return s.substring(0,8);
+    else{
+        if(hour == 12){
+            return s.substring(0,8);
+        }
+        hour+=12;
+        updatedHour = hour + ""; 
     }
-    hour+=12;
-    updatedHour = hour + ""; 
-}
-return updatedHour + s.substring(2,8);
+    return updatedHour + s.substring(2,8);
 }
 ```
 
