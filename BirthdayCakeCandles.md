@@ -57,7 +57,7 @@ The second line contains n space-separated integers, where each integer i descri
 Below is my working solution for the problem in HackerRank:
 
 ```
-    public static int birthdayCakeCandles(List<Integer> candles) {
+public static int birthdayCakeCandles(List<Integer> candles) {
     // Write your code here
     if(candles.size() == 1){
         return 1;
@@ -74,7 +74,6 @@ Below is my working solution for the problem in HackerRank:
         }
     }
     return numOfCandles;
-    }
 }
 ```
 
