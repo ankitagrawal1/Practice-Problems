@@ -66,7 +66,7 @@ Write a program that prints a staircase of size n.*
 Below is my working solution for the problem in HackerRank:
 
 ```
-    public static void staircase(int n) {
+public static void staircase(int n) {
     if(n == 0){
         return;
     }
@@ -78,7 +78,7 @@ Below is my working solution for the problem in HackerRank:
         System.out.println(stair.substring(0, n));
         stair = stair.substring(1);
     }
-    }
+}
 ```
 
 This solution works against all 9 test cases provided in HackerRank.
