@@ -67,7 +67,7 @@ The sample input corresponds to the figure described in problem statement.
 
 ## Solution
 
-It took me a bit of time to first determine how I should be going about calculating the surface area for the possible toys. However, after briefly examining sample input 1 with a friend, I was able to rethink how I was calculating the surface area manually and translate that solution successfully into code. Below is my subsequently working solution for the problem in HackerRank:
+It took me a bit of time to first determine how I should be going about calculating the surface area for the possible toys. However, after briefly examining sample input 1 with a friend to try and confirm its surface area, I realized I was overcomplicating the problem -- as a result, I rethought how I was calculating the surface area manually and translated that solution successfully into code. Below is my subsequently working solution for the problem in HackerRank:
 
 ```
 public static int surfaceArea(List<List<Integer>> A) {
